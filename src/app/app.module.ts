@@ -5,11 +5,13 @@ import { NgModule } from '@angular/core';
 import { DxButtonModule } from 'devextreme-angular';
 
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
